@@ -80,7 +80,7 @@ export default function Product() {
       colors: colorValue || [],
       sizes: sizeValue || [],
       minPrice: minPrice || 0,
-      maxPrice: maxPrice || 10000,
+      maxPrice: maxPrice || 100000,
       minDiscount: disccount || 0,
       sort: sortValue || "price_low",
       pageNumber: pageNumber - 1,

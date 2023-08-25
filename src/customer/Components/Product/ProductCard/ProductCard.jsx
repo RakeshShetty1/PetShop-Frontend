@@ -12,9 +12,9 @@ const ProductCard = ({ product }) => {
   }
 
   return (
-   <div onClick={handleNavigate} className='productCard w-[15rem] border m-3 transition-all cursor-pointer '>
-    <div className='h-[20rem]'>
-        <img className='h-full w-full object-cover object-left-top' src={imageUrl} alt="" />
+    <div onClick={handleNavigate} className='productCard w-[20rem] border m-3 transition-all cursor-pointer '>
+    <div className='h-[20rem] '>
+        <img className='h-[20rem] w-100  ' src={imageUrl} alt="" />
     </div>
     <div className='textPart bg-white p-3 '>
         <div>

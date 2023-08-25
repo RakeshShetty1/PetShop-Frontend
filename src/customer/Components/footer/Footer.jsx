@@ -70,19 +70,18 @@ const Footer = () => {
       </Grid>
       <Grid className='pt-20' item xs={12} >
         <Typography variant="body2" component="p" align="center">
-          &copy; 2023 My Company. All rights reserved.
+          &copy; 2023 The Pet Jungle. All rights reserved.
         </Typography>
         <Typography variant="body2" component="p" align="center">
-          Made with love by Me.
-        </Typography>
+        Pet might not stay with us through our entire life, but they will stay with us through their entire life        </Typography>
         <Typography variant="body2" component="p" align="center">
-          Icons made by{' '}
-          <Link href="https://www.freepik.com" color="inherit" underline="always">
+          {/* Icons made by{' '} */}
+          {/* <Link href="https://www.freepik.com" color="inherit" underline="always">
             Freepik
           </Link>{' '}
-          from{' '}
+          from{' '} */}
           <Link href="https://www.flaticon.com/" color="inherit" underline="always">
-            www.flaticon.com
+            www.thepetjungle.com
           </Link>
         </Typography>
       </Grid>
